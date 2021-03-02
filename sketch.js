@@ -24,11 +24,11 @@ function setup() {
 	stone1= new Stone(200,200,100,100);
 	stone2= new Stone(700,200,100,100);
 	plane= new Plane(600,500,1200,30);
-	rubber1= new Rubber(400,200);
-	rubber2= new Rubber(440,200);
-	rubber3= new Rubber(480,200);
-	rubber4= new Rubber(520,200);
-	rubber5= new Rubber(560,200);
+	rubber1= new Rubber(400,200,30,30);
+	rubber2= new Rubber(440,200,30,30);
+	rubber3= new Rubber(480,200,30,30);
+	rubber4= new Rubber(520,200,30,30);
+	rubber5= new Rubber(560,200,30,30);
 
       
 	Engine.run(engine);

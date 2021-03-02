@@ -19,6 +19,7 @@ class Hammer{
     push();
    
     rotate(angle);
+    translate(pos.x,pos.y)
     rectMode(CENTER);
     fill("orange");
     stroke("white");

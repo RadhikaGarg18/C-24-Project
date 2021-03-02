@@ -7,7 +7,7 @@ class Stone {
           'density':1
           
       }
-      this.body = Bodies.rectangle(x, y, width, height, options);
+      this.body = Matter.Bodies.circle(x, y, 100, options);
       this.width = width;
       this.height = height;
       
@@ -23,7 +23,7 @@ class Stone {
       fill("black");
       stroke("black");
       strokeWeight(3);
-      rect(0, 0, this.width, this.height);
+      ellipse(0, 0, 150, 150);
       pop();
     }
   };
