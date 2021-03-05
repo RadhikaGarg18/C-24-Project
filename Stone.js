@@ -4,10 +4,10 @@ class Stone {
         
           'restitution':0.2,
           'friction':0.2,
-          'density':1
+          'density':10
           
       }
-      this.body = Matter.Bodies.circle(x, y, 100, options);
+      this.body = Bodies.circle(x, y, 100, options);
       this.width = width;
       this.height = height;
       

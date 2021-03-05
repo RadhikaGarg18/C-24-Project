@@ -5,7 +5,7 @@ class Hammer{
             'friction': 1,
             'restitution': 0.5
     }
-    this.body = Bodies.rectangle(x, mouseY, y, height, options);
+    this.body = Bodies.rectangle(x, y,width, height, options);
     this.width = width;
     this.height = height;
     
@@ -17,9 +17,9 @@ class Hammer{
     this.body.position.y = mouseY;
     var angle = this.body.angle;
     push();
-   
+    translate(0,0);
     rotate(angle);
-    translate(pos.x,pos.y)
+    
     rectMode(CENTER);
     fill("orange");
     stroke("white");

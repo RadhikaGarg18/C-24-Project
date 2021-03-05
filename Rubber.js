@@ -1,11 +1,11 @@
 class Rubber {
-  constructor(x, y, width, height) {
+  constructor(x, y) {
     var options = {
         'restitution':0.3,
         'friction':5,
         'density':1
      }
-    this.body = Matter.Bodies.circle(x,y,20,options);
+    this.body = Bodies.circle(x,y,20,options);
     this.width = width;
     this.height = height;
     
